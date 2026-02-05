@@ -3,11 +3,11 @@ import geopandas as gpd
 from sqlalchemy import create_engine
 import json
 
-DB_USER = "postgres"
-DB_PASS = "kokoququn"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "sharpmap"
+DB_USER = ""
+DB_PASS = ""
+DB_HOST = ""
+DB_PORT = ""
+DB_NAME = ""
 
 print("1. Menyiapkan data dummy...")
 districts = [
